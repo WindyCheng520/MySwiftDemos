@@ -32,6 +32,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
     }
+    
+    //封装的日志输出功能（T表示不指定日志信息参数类型）
+    func PrintLog<T>(_ message:T, file:String = #file, function:String = #function,
+                  line:Int = #line) {
+        #if DEBUG
+            //获取文件名
+            let fileName = (file as NSString).lastPathComponent
+            //打印日志内容
+            print("\(fileName):\(line) \(function) | \(message)")
+        #endif
+    }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.

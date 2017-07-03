@@ -12,6 +12,9 @@
 		0BD083BA1F09F743009B6972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BD083B81F09F743009B6972 /* Main.storyboard */; };
 		0BD083BC1F09F743009B6972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD083BB1F09F743009B6972 /* Assets.xcassets */; };
 		0BD083BF1F09F743009B6972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BD083BD1F09F743009B6972 /* LaunchScreen.storyboard */; };
+		0BD083CB1F0A11A8009B6972 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD083CA1F0A11A8009B6972 /* MyViewController.m */; };
+		0BD083CD1F0A1214009B6972 /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD083CC1F0A1214009B6972 /* NetWorkTool.swift */; };
+		0BD083CF1F0A121C009B6972 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD083CE1F0A121C009B6972 /* UIColor-Extension.swift */; };
 		A1E5B6EAC20284137C22459E /* Pods_SampleSwift2017.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED57210A2E5F931DA017DDE /* Pods_SampleSwift2017.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,11 @@
 		0BD083BB1F09F743009B6972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BD083BE1F09F743009B6972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BD083C01F09F743009B6972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BD083C81F0A11A7009B6972 /* SampleSwift2017-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleSwift2017-Bridging-Header.h"; sourceTree = "<group>"; };
+		0BD083C91F0A11A8009B6972 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		0BD083CA1F0A11A8009B6972 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		0BD083CC1F0A1214009B6972 /* NetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTool.swift; sourceTree = "<group>"; };
+		0BD083CE1F0A121C009B6972 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		4A346845D5225097197181AA /* Pods-SampleSwift2017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSwift2017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleSwift2017/Pods-SampleSwift2017.debug.xcconfig"; sourceTree = "<group>"; };
 		D9C8F2417BBE840501873EC8 /* Pods-SampleSwift2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSwift2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleSwift2017/Pods-SampleSwift2017.release.xcconfig"; sourceTree = "<group>"; };
 		DED57210A2E5F931DA017DDE /* Pods_SampleSwift2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleSwift2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +71,15 @@
 			children = (
 				0BD083B41F09F743009B6972 /* AppDelegate.swift */,
 				0BD083B61F09F743009B6972 /* ViewController.swift */,
+				0BD083C91F0A11A8009B6972 /* MyViewController.h */,
+				0BD083CA1F0A11A8009B6972 /* MyViewController.m */,
+				0BD083CC1F0A1214009B6972 /* NetWorkTool.swift */,
+				0BD083CE1F0A121C009B6972 /* UIColor-Extension.swift */,
 				0BD083B81F09F743009B6972 /* Main.storyboard */,
 				0BD083BB1F09F743009B6972 /* Assets.xcassets */,
 				0BD083BD1F09F743009B6972 /* LaunchScreen.storyboard */,
 				0BD083C01F09F743009B6972 /* Info.plist */,
+				0BD083C81F0A11A7009B6972 /* SampleSwift2017-Bridging-Header.h */,
 			);
 			path = SampleSwift2017;
 			sourceTree = "<group>";
@@ -123,7 +136,8 @@
 				TargetAttributes = {
 					0BD083B01F09F743009B6972 = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -211,6 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD083CD1F0A1214009B6972 /* NetWorkTool.swift in Sources */,
+				0BD083CF1F0A121C009B6972 /* UIColor-Extension.swift in Sources */,
+				0BD083CB1F0A11A8009B6972 /* MyViewController.m in Sources */,
 				0BD083B71F09F743009B6972 /* ViewController.swift in Sources */,
 				0BD083B51F09F743009B6972 /* AppDelegate.swift in Sources */,
 			);
@@ -336,10 +353,16 @@
 			baseConfigurationReference = 4A346845D5225097197181AA /* Pods-SampleSwift2017.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SampleSwift2017/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.windy.www.SampleSwift2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleSwift2017/SampleSwift2017-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -349,10 +372,15 @@
 			baseConfigurationReference = D9C8F2417BBE840501873EC8 /* Pods-SampleSwift2017.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SampleSwift2017/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.windy.www.SampleSwift2017;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleSwift2017/SampleSwift2017-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
