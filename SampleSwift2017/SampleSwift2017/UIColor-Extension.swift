@@ -48,7 +48,7 @@ extension UIColor {
     convenience init(hexColor: String) {
         
         // 存储转换后的数值
-        var red:UInt32 = 0, green:UInt32 = 0, blue:UInt32 = 0
+        var red: UInt32 = 0, green: UInt32 = 0, blue: UInt32 = 0
         
         // 分别转换进行转换
         Scanner(string: hexColor[0..<2]).scanHexInt32(&red)

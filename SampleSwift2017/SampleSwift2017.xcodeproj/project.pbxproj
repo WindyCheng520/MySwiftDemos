@@ -15,6 +15,8 @@
 		0BD083CB1F0A11A8009B6972 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD083CA1F0A11A8009B6972 /* MyViewController.m */; };
 		0BD083CD1F0A1214009B6972 /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD083CC1F0A1214009B6972 /* NetWorkTool.swift */; };
 		0BD083CF1F0A121C009B6972 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD083CE1F0A121C009B6972 /* UIColor-Extension.swift */; };
+		0BD083D41F0A1633009B6972 /* ServiceURLKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD083D11F0A1633009B6972 /* ServiceURLKeys.m */; };
+		0BD083D51F0A1633009B6972 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD083D31F0A1633009B6972 /* UIColor+Hex.m */; };
 		A1E5B6EAC20284137C22459E /* Pods_SampleSwift2017.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED57210A2E5F931DA017DDE /* Pods_SampleSwift2017.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,10 @@
 		0BD083CA1F0A11A8009B6972 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		0BD083CC1F0A1214009B6972 /* NetWorkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkTool.swift; sourceTree = "<group>"; };
 		0BD083CE1F0A121C009B6972 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		0BD083D01F0A1633009B6972 /* ServiceURLKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceURLKeys.h; sourceTree = "<group>"; };
+		0BD083D11F0A1633009B6972 /* ServiceURLKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceURLKeys.m; sourceTree = "<group>"; };
+		0BD083D21F0A1633009B6972 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		0BD083D31F0A1633009B6972 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		4A346845D5225097197181AA /* Pods-SampleSwift2017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSwift2017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleSwift2017/Pods-SampleSwift2017.debug.xcconfig"; sourceTree = "<group>"; };
 		D9C8F2417BBE840501873EC8 /* Pods-SampleSwift2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleSwift2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleSwift2017/Pods-SampleSwift2017.release.xcconfig"; sourceTree = "<group>"; };
 		DED57210A2E5F931DA017DDE /* Pods_SampleSwift2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleSwift2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +81,10 @@
 				0BD083CA1F0A11A8009B6972 /* MyViewController.m */,
 				0BD083CC1F0A1214009B6972 /* NetWorkTool.swift */,
 				0BD083CE1F0A121C009B6972 /* UIColor-Extension.swift */,
+				0BD083D01F0A1633009B6972 /* ServiceURLKeys.h */,
+				0BD083D11F0A1633009B6972 /* ServiceURLKeys.m */,
+				0BD083D21F0A1633009B6972 /* UIColor+Hex.h */,
+				0BD083D31F0A1633009B6972 /* UIColor+Hex.m */,
 				0BD083B81F09F743009B6972 /* Main.storyboard */,
 				0BD083BB1F09F743009B6972 /* Assets.xcassets */,
 				0BD083BD1F09F743009B6972 /* LaunchScreen.storyboard */,
@@ -229,7 +239,9 @@
 				0BD083CF1F0A121C009B6972 /* UIColor-Extension.swift in Sources */,
 				0BD083CB1F0A11A8009B6972 /* MyViewController.m in Sources */,
 				0BD083B71F09F743009B6972 /* ViewController.swift in Sources */,
+				0BD083D51F0A1633009B6972 /* UIColor+Hex.m in Sources */,
 				0BD083B51F09F743009B6972 /* AppDelegate.swift in Sources */,
+				0BD083D41F0A1633009B6972 /* ServiceURLKeys.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
