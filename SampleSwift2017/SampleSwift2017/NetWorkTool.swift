@@ -37,7 +37,7 @@ extension NetworkRequest {
                     success(value as! [String : AnyObject])
                     //                    }
                     let json = JSON(value)
-                    PrintLog(json)
+                  //  PrintLog(json)
                     
                 case .failure(let error):
                     failture(error)
@@ -55,11 +55,11 @@ extension NetworkRequest {
                 if let value = response.result.value as? [String: AnyObject] {
                     success(value)
                     let json = JSON(value)
-                    PrintLog(json)
+                    //PrintLog(json)
                 }
             case .failure(let error):
                 failture(error)
-                PrintLog("error:\(error)")
+              //  PrintLog("error:\(error)")
             }
             
         }
@@ -114,11 +114,11 @@ extension NetworkRequest {
                         if let value = response.result.value as? [String: AnyObject]{
                             success(value)
                             let json = JSON(value)
-                            PrintLog(json)
+                          //  PrintLog(json)
                         }
                     }
                 case .failure(let encodingError):
-                    PrintLog(encodingError)
+                    //PrintLog(encodingError)
                     failture(encodingError)
                 }
         }

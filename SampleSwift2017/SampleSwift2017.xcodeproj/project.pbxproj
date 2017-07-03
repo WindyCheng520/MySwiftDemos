@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B27E5321F0A580900D2E2DF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		0BD083B11F09F743009B6972 /* SampleSwift2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSwift2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD083B41F09F743009B6972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BD083B61F09F743009B6972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 				0BD083D11F0A1633009B6972 /* ServiceURLKeys.m */,
 				0BD083D21F0A1633009B6972 /* UIColor+Hex.h */,
 				0BD083D31F0A1633009B6972 /* UIColor+Hex.m */,
+				0B27E5321F0A580900D2E2DF /* MyPlayground.playground */,
 				0BD083B81F09F743009B6972 /* Main.storyboard */,
 				0BD083BB1F09F743009B6972 /* Assets.xcassets */,
 				0BD083BD1F09F743009B6972 /* LaunchScreen.storyboard */,
