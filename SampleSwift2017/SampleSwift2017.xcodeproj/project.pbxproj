@@ -21,7 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B27E5321F0A580900D2E2DF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		0B00B99F1F0B2AA600020C4F /* 枚举使用.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "枚举使用.playground"; sourceTree = "<group>"; };
+		0B00B9A01F0B399100020C4F /* 函数之趣.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "函数之趣.playground"; sourceTree = "<group>"; };
+		0B27E5321F0A580900D2E2DF /* 高阶函数的使用.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "高阶函数的使用.playground"; sourceTree = "<group>"; };
 		0BD083B11F09F743009B6972 /* SampleSwift2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSwift2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD083B41F09F743009B6972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BD083B61F09F743009B6972 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,9 +86,11 @@
 				0BD083CE1F0A121C009B6972 /* UIColor-Extension.swift */,
 				0BD083D01F0A1633009B6972 /* ServiceURLKeys.h */,
 				0BD083D11F0A1633009B6972 /* ServiceURLKeys.m */,
+				0B00B9A01F0B399100020C4F /* 函数之趣.playground */,
+				0B00B99F1F0B2AA600020C4F /* 枚举使用.playground */,
 				0BD083D21F0A1633009B6972 /* UIColor+Hex.h */,
 				0BD083D31F0A1633009B6972 /* UIColor+Hex.m */,
-				0B27E5321F0A580900D2E2DF /* MyPlayground.playground */,
+				0B27E5321F0A580900D2E2DF /* 高阶函数的使用.playground */,
 				0BD083B81F09F743009B6972 /* Main.storyboard */,
 				0BD083BB1F09F743009B6972 /* Assets.xcassets */,
 				0BD083BD1F09F743009B6972 /* LaunchScreen.storyboard */,
